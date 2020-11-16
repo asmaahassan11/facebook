@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>facebook form </title>
+    <style media="screen">
+body{
+  background-image: url("https://img.freepik.com/free-photo/wall-wallpaper-concrete-colored-painted-textured-concept_53876-31799.jpg?size=626&ext=jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+
+}
+.container{
+  border-block-start-color: teal;
+  width: 350px;
+  height: 450px;
+  margin: 80px  auto;
+  background-color: rgb(248, 248, 248);
+  text-align: center;
+  box-shadow: 0 2px 5px;
+  border-radius: 25px;
+
+}
+.container .facebook{
+  font-size: 45px;
+  color: blue;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.login{
+  font-size: 20px ;
+  font-weight: bolder;
+
+}
+
+input {
+    width: 250px;
+    right: 40px;
+    padding: 15px 20px;
+    border-radius: 25px;
+    margin: 5px 0;
+}
+button{
+  background-color: blue;
+  width:230px;
+  height: 40px;
+  border: 1px solid blue;
+  border-radius: 25px;
+  font-size: 28px;
+outline: none;
+cursor: pointer;
+font-weight: bolder;
+color: white;
+
+}
+.submission{
+  margin: 10px 0;
+}
+.corner{
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color:#494d67;
+  opacity:0.6;
+  overflow-x: hidden;
+  padding-top: 20px;
+
+}
+.corner a{padding: 15px 6px 6px 32px;
+text-align: center;
+text-decoration: none;
+font-size: 25px;
+color: white;
+display: block;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="facebook"> facebook </div>
+
+      <div class="form-warpper"></div>
+      <form class="form" action="#" method="post">
+        <p class="login">login</p>
+        <div class="formInput">
+          <input type="email" id="email" placeholder="email or phone ">
+          <input type="password" id="password" placeholder="password">
+        </div>
+        <div class="submission">
+          <button type="submit" name="login" id="btn" >login</button>
+        </div>
+        <div class="forget">
+          <a href="#">forget password? </a>
+        </div>
+        <h1> or </h1>
+        <div class="register">
+          <a href="#">sign up </a>
+
+
+        </div>
+      </form>
+    </div>
+    <div class="corner">
+      <br>
+      <br><br><br><br><br><br>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+
+    </div>
+
+  </body>
+</html>
